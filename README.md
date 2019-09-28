@@ -5,9 +5,10 @@ The programs are primarily created by following the crash course created by Part
 
 All programs were written in Visual Studio Code and were compiled with the javac compiler.
 
-### Suggested Order of Files
+### Suggested Program Order
 1. Hello_World
 2. Basics
 3. Statements
 4. Methods
 5. CommandLine
+6. Classes
