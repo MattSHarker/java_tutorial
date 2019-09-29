@@ -46,13 +46,13 @@ class Arrays
             }
         }
 
-        System.out.println();
         for (int i = 0; i < mdArr.length; ++i)
         {
+            System.out.println();
+
             for (int j = 0; j < mdArr[i].length; ++j)
                 System.out.print(mdArr[i][j] + " ");
 
-            System.out.println();
         }
     }
 }
