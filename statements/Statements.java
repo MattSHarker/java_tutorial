@@ -75,5 +75,51 @@ class Statements
         for (int num : arr)
             System.out.println(num);
 
+        
+        // switch case
+        // switch statements can be done on all primitive types (including bytes and String) and enums 
+        System.out.println();
+        char grade = 'c';
+        switch(grade)
+        {
+            case 'a':
+                System.out.println("90-100");
+                break;
+            case 'b':
+                System.out.println("80-89");
+                break;
+            case 'c':
+                System.out.println("70-79");
+                break;
+            case 'd':
+                System.out.println("60-69");
+                break;
+            case 'f':
+                System.out.println("0-59");
+                break;
+            default:
+                System.out.println("Grade not found");
+                break;
+        }
+
+        // not using break statements will cause fallthrough
+        System.out.println();
+        int countdown = 5;
+        switch(countdown)
+        {
+            case 10: System.out.println("Ten");
+            case  9: System.out.println("Nine");
+            case  8: System.out.println("Eight");
+            case  7: System.out.println("Seven");
+            case  6: System.out.println("Six");
+            case  5: System.out.println("Five");
+            case  4: System.out.println("Four");
+            case  3: System.out.println("Three");
+            case  2: System.out.println("Two");
+            case  1: System.out.println("One");
+            case  0: System.out.println("Zero"); break;
+            default: System.out.println("Houston we have a problem"); break;
+        }
+
     }
 }
