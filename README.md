@@ -1,7 +1,7 @@
 # java_tutorial
 A series of programs with the intention of containing the most important facets of Java
 
-The programs are primarily created by following the crash course created by Partrik Presson from Lund Institute of Technology's Department of Computer science. Some additional files were created with the help of general online guides.
+The programs are primarily created by following the crash course created by Partrik Presson from Lund Institute of Technology's Department of Computer science, as well as the tutorial provided by Jakob Jenkov at jenkov.com.
 
 All programs were written in Visual Studio Code and were compiled with the javac compiler.
 
