@@ -9,6 +9,8 @@ All programs were written in Visual Studio Code and were compiled with the javac
 1. Hello_World
 2. Basics
 3. Statements
+7. Arrays
+8. Strings
 4. Methods
 5. CommandLine
 6. Classes
